@@ -1,0 +1,75 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  padding: 30px;
+  background: #0f172a;
+  color: white;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  display: inline-block;
+}
+
+.price {
+  color: #22c55e;
+  font-size: 22px;
+}
+
+.trend.up {
+  color: #ef4444;
+}
+
+.trend.down {
+  color: #22c55e;
+}
+
+.trend.stable {
+  color: #eab308;
+}
+
+.reason {
+  color: #38bdf8;
+}
+
+.tip {
+  color: #facc15;
+}
+.input-box {
+  margin-top: 20px;
+}
+
+input {
+  padding: 12px 15px;
+  width: 250px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+button {
+  padding: 12px 20px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #22c55e, #4ade80);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #16a34a, #22c55e);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+input:focus {
+  box-shadow: 0 0 10px #22c55e;
+}
